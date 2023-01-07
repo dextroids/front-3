@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(55, 52, 52);
+  color: rgb(197, 194, 194);
+}
+table, tr, td{
+  border-bottom: 0.5px solid rgb(144, 142, 142);
+  border-collapse: collapse;
+  margin: auto;
+  height: 40px;
+}
+
+tr{
+  text-align: left;
+}
+
+table{
+  width: 75vw;
+  margin-top: 15px;
+}
+
+.container{
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  width: 80vw;
+  margin: auto;
+  height: 90vh;
+}
+
+@media only screen and (max-width: 720px){
+  *{
+      font-size: 8px;
+  }
+
+  .container{
+      height: 470px;
+  }
+}
